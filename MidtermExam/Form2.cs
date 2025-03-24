@@ -32,7 +32,7 @@ namespace MidtermExam
             saveFileDialog1.Filter = "Text |*.txt";
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                 File.WriteAllText(openFileDialog1.FileName,txtEditor.Text);
+                 File.WriteAllText(saveFileDialog1.FileName,txtEditor.Text);
             }
         }
 
