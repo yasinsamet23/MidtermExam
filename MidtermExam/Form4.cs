@@ -18,6 +18,9 @@ namespace MidtermExam
         }
         private void UpdateColor()
         {
+            trackBarRed.LargeChange = 0;
+            vScrollBarGreen.LargeChange=0;
+            hScrollBarBlue.LargeChange = 0;
             int red = trackBarRed.Value;
             label1.Text = red.ToString();
             int green = vScrollBarGreen.Value;
